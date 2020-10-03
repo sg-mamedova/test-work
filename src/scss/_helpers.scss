@@ -1,0 +1,50 @@
+.title {
+    color: #000000;
+    font-weight: bold;
+    margin: 0 0 30px;
+}
+
+.title--h1 {
+    font-size: 30px;
+    line-height: 38px;
+}
+
+.title--h2  {
+    font-size: 22px;
+    line-height: 34px;
+}
+
+.title--h3 {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 1.08333px;
+}
+
+.text--grey {
+    color: #999999;    
+}
+
+.text--capitalize {
+    text-transform: capitalize;
+}
+
+.text--uppercase {
+    text-transform: uppercase;
+}
+
+.img--fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.mb-0 {
+    margin-bottom: 0 !important;
+}
+
+.mb-2 {
+    margin-bottom: 8px !important;
+}

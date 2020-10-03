@@ -1,0 +1,38 @@
+.features {
+    background-color: #FFFFFF;
+    padding: 70px 188px;
+}
+
+.features__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+    
+    &:last-child {
+        margin-bottom: 0;
+    }
+
+    &:nth-child(2n) {
+        
+        .features__item-img {
+            order: 1;
+        }
+    }
+}
+
+.features__item-img {
+    height: 350px;
+    width: 60%;
+    overflow: hidden;
+    background-position: center center;
+    background-size: cover;
+}
+
+.features__item-text {
+    width: 35%;
+
+    p {
+        margin: 0;
+    }
+}

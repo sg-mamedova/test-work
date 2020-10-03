@@ -1,0 +1,55 @@
+.hero {
+    display: flex;
+    position: relative;
+}
+
+.hero__left,
+.hero__right {
+    display: inline-flex;
+    height: 770px;
+    vertical-align: top;
+    width: 50%;
+}
+
+.hero__left {
+    flex-flow: column;
+    background: #E3F5F2;
+    justify-content: space-around;
+    padding-left: 76px;
+
+    h1 {
+        width: 100%;
+        max-width: 301px;
+    }
+
+    p {
+        width: 100%;
+        max-width: 288px;
+    }
+}
+
+.hero__right {
+    background-image: url('../img/bg.jpg');
+    background-size: cover;
+}
+
+.hero__form {
+    background: lighten(#1C1C1C, 0.9);
+    border-radius: 10px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 153px;
+    text-align: center;
+    padding: 78px 54px 71px 59px;
+    width: 411px;
+
+    .form__input {
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    .btn {
+        margin-bottom: 15px;
+    }
+}
